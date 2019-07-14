@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact tests get Photos should return 10 photo 1`] = `
+Array [
+  Object {
+    "description": "Galaxy of stars",
+    "id": 1,
+    "large": "images/image-1-large.jpg",
+    "thumbnail": "images/image-1.jpg",
+    "title": "galaxy",
+  },
+  Object {
+    "description": "Tick amazon forest",
+    "id": 2,
+    "large": "images/image-2-large.jpg",
+    "thumbnail": "images/image-2.jpg",
+    "title": "amazon",
+  },
+  Object {
+    "description": "Tick white cloud",
+    "id": 3,
+    "large": "images/image-3-large.jpg",
+    "thumbnail": "images/image-3.jpg",
+    "title": "Cloud",
+  },
+  Object {
+    "description": "Ice",
+    "id": 4,
+    "large": "images/image-4-large.jpg",
+    "thumbnail": "images/image-4.jpg",
+    "title": "",
+  },
+  Object {
+    "description": "Sunny Cloud",
+    "id": 5,
+    "large": "images/image-5-large.jpg",
+    "thumbnail": "images/image-5.jpg",
+    "title": "Sky",
+  },
+  Object {
+    "description": "Nice Cloud Image",
+    "id": 6,
+    "large": "images/image-6-large.jpg",
+    "thumbnail": "images/image-6.jpg",
+    "title": "Sky2",
+  },
+  Object {
+    "description": "another cloud image",
+    "id": 7,
+    "large": "images/image-7-large.jpg",
+    "thumbnail": "images/image-7.jpg",
+    "title": "Sky3",
+  },
+  Object {
+    "description": "sky image from the river bank",
+    "id": 8,
+    "large": "images/image-8-large.jpg",
+    "thumbnail": "images/image-8.jpg",
+    "title": "sky4",
+  },
+  Object {
+    "description": "another sky image",
+    "id": 9,
+    "large": "images/image-9-large.jpg",
+    "thumbnail": "images/image-9.jpg",
+    "title": "sky 5",
+  },
+  Object {
+    "description": "Raining street image",
+    "id": 10,
+    "large": "images/image-10-large.jpg",
+    "thumbnail": "images/image-10.jpg",
+    "title": "sky 6",
+  },
+]
+`;

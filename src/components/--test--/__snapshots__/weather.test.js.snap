@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weather tests load Weather Data for Montreal 1`] = `
+Object {
+  "feels_like": "19",
+  "icon": "3",
+  "inic": "iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAMAAADzjKfhAAAAS1BMVEUAAADfqE/i1KyqqqruuFnkrlHCw8bssEjq2on74ZXux3P40XvMzM7Bp330wljh4eL3yGS9qo3p5uLusEbg4eDz8u//7Ib333n62zc3bsJYAAAAFHRSTlMAB/hNPS8UDP7tysWsi4iBdHBlGexLoNwAAAA2SURBVAjXFcrHEcAgDADBE9HZBBH6r5Rh3wtIZHPpcwL17sOUgD/n0dpPvIyqPuDza23YX4AFKzUBiDlmoFoAAAAASUVORK5CYII=",
+  "lbl_updatetime": "Updated on",
+  "placecode": "CAON0696",
+  "temperature": "19",
+  "temperature_unit": "C",
+  "updatetime": "Sat Jul 13 7:15 AM",
+  "updatetime_stamp_gmt": "1563016500000",
+  "wxcondition": "Partly cloudy",
+}
+`;
+
+exports[`Weather tests load Weather Data for Toronto 1`] = `
+Response {
+  "_bodyBlob": Blob {},
+  "_bodyInit": Blob {},
+  "headers": Headers {
+    "map": Object {
+      "cache-control": "max-age=27, s-maxage=300",
+      "content-type": "text/html; charset=utf-8",
+      "expires": "Sun, 14 Jul 2019 19:14:59 GMT",
+    },
+  },
+  "ok": true,
+  "status": 200,
+  "statusText": "OK",
+  "type": "default",
+  "url": "https://www.meteomedia.com/api/obsdata/caqc0363/c?ref=rt",
+}
+`;

@@ -1,0 +1,9 @@
+.photoThumbnail {
+  width: 120px !important;
+  height: 80px !important;
+  margin: 5px !important;
+}
+.largePhoto {
+  max-height: 400px;
+  max-width: 600px;
+}
